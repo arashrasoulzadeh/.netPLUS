@@ -6,14 +6,19 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using DNP;
 namespace DNP
 {
-    public partial class Form1 : Form
+    public partial class testarea : Form
     {
-        public Form1()
+        public testarea()
         {
             InitializeComponent();
+        }
+
+        private void testarea_Load(object sender, EventArgs e)
+        {
+            GUI.effects.FadeIn(this);
         }
     }
 }
